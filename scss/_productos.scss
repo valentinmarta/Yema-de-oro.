@@ -1,0 +1,177 @@
+/*css de productos*/
+
+.pasta{
+    transition: 1s;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.tituloPasta{
+    margin-top: 3%;
+    background-color: $gris;
+    color: white;
+    width: 600px;
+    text-align: center;
+}
+
+.pasta:hover{
+    transform: scale(1.2,1.2);
+}
+
+.tabla{
+    text-align: center;
+    color: white;
+}
+
+.tabla2{
+    @extend .parrafo2;
+    margin-bottom: 3%;
+}
+
+.infoNutri{
+    margin-top: 3%;
+    color: white;
+}
+
+table{
+    margin-top: 15px;
+    font-size: larger;
+    background-color: $grisOscuro;
+    color: white;
+    border: solid 1px;
+}
+
+tr{
+    border: solid 1px;
+}
+
+td{
+    border: solid 1px;
+}
+
+th{
+    border: solid 1px;
+    background-color: black;
+}
+
+.form{
+    margin-bottom: 2%;
+}
+
+#formulario{
+    background-color: $gris;
+    color: white;
+}
+
+input{
+    display: block;
+}
+
+.sexo{
+    display: inline;
+    margin-top: 10px;
+}
+
+.dias{
+    display: block;
+    margin-top: 10px;
+}
+
+.botones{
+    display: inline-block;
+    margin: 1%;
+    margin-top: 3%;
+}
+
+.tituloForm{
+    padding: 1%;
+}
+
+/*css de productos*/
+
+.pasta{
+    transition: 1s;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.tituloPasta{
+    margin-top: 3%;
+    background-color: $gris;
+    color: white;
+    width: 600px;
+    text-align: center;
+}
+
+.pasta:hover{
+    transform: scale(1.2,1.2);
+}
+
+.tabla{
+    text-align: center;
+    color: white;
+}
+
+.tabla2{
+    @extend .parrafo2;
+    margin-bottom: 3%;
+}
+
+.infoNutri{
+    margin-top: 3%;
+    color: white;
+}
+
+table{
+    margin-top: 15px;
+    font-size: larger;
+    background-color: $grisOscuro;
+    color: white;
+    border: solid 1px;
+}
+
+tr{
+    border: solid 1px;
+}
+
+td{
+    border: solid 1px;
+}
+
+th{
+    border: solid 1px;
+    background-color: black;
+}
+
+.form{
+    margin-bottom: 2%;
+}
+
+#formulario{
+    background-color: $gris;
+    color: white;
+}
+
+input{
+    display: block;
+}
+
+.sexo{
+    display: inline;
+    margin-top: 10px;
+}
+
+.dias{
+    display: block;
+    margin-top: 10px;
+}
+
+.botones{
+    display: inline-block;
+    margin: 1%;
+    margin-top: 3%;
+}
+
+.tituloForm{
+    padding: 1%;
+}

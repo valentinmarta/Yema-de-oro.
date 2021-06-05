@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Productos</title>
+</head>
+<body>
+    
+    <div class="titulo">
+        <h1>PRODUCTOS</h1>
+        <div class="header"></div>
+    </div>
+    
+    <!--menu de navegacion-->
+    <div>
+        <div class="container-fluid menu">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="container-fluid">
+                            <div class="collapse navbar-collapse d-flex justify-content-center " id="navbarNav">
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="index.html"><p class="li">INICIO</p></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="servicios.html"><p class="li">SERVICIOS</p></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="nuestraCiudad.html"><p class="li">NUESTRA CIUDAD</p></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="nosotros.html" tabindex="-1" aria-disabled="true"><p class="li">NOSOTROS</p></a>
+                                    </li>
+                                </ul> 
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="containerIndex"></div>
+    </div>
+    
+    <!--productos-->
+    <div class="container">
+        <div class="row">
+
+            <div class="col-6">
+                <div class="ravioles">
+                    <h2 class="tituloPasta">Ravioles</h2>
+                    <img class="pasta" width="" height="" src="img/ravioles.jpg" alt="ravioles">
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="ñoquis">
+                    <h2 class="tituloPasta">Ñoquis</h2>
+                    <img class="pasta" width="" height="" src="img/ñoquis.jpg" alt="ñoquis">
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-6">
+                <div class="tirabuzon">
+                    <h2 class="tituloPasta">Fideos tirabuzon</h2>
+                    <img class="pasta" width="" height="" src="img/tirabuzon.jpg" alt="tirabuzon">
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="tallarines">
+                    <h2 class="tituloPasta">Tallarines</h2>
+                    <img class="pasta" width="" height="" src="img/tallarines.jpg" alt="ñoquis">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <!--informacion nutricional-->
+    <section class="tabla">    
+        <h4 class="infoNutri">INFORMACION NUTRICIONAL DE NUESTROS PRODUCTOS</h4>
+        <p class="aporte">(aporte por cada 100g de alimento.)</p>
+        
+        <div class="tabla2">
+            <table border="3" cellpadding="10" cellspacing="5">
+                <tr>
+                    <th></th>
+                    <th>Aportes</th>
+                </tr>
+                <tr>
+                    <td>Energia(kcal)</td>
+                    <td>374</td>
+                </tr>
+                <tr>
+                    <td>Proteinas(g)</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>Grasas(g)</td>
+                    <td>1,1</td>
+                </tr>
+                <tr>
+                    <td>Hidratos de carbono(g)</td>
+                    <td>75</td>
+                </tr>
+                <tr>
+                    <td>Fósforo(mg)</td>
+                    <td>258</td>
+                </tr>
+                <tr>
+                    <td>Hierro(mg)</td>
+                    <td>3,6</td>
+                </tr>
+                <tr>
+                    <td>Magnesio(mg)</td>
+                    <td>143</td>
+                </tr>
+                <tr>
+                    <td>Fibra(g)</td>
+                    <td>5</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    
+    <!--formulario-->
+    <div class="container form">    
+        <div class="row d-flex justify-content-center">
+            <div class="col-10">       
+                <form action="" method="" id="formulario">
+                    <h4 class="tituloForm">SI QUIERE RECIBIR NOVEDADES SOBRE NUESTROS PRODUCTOS Y DESCUENTOS, POR FAVOR RELLENE EL SIGUIENTE FORMULARIO:</h4>
+                    <fieldset>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6">
+                                    <label for="nombre">Nombre</label>
+                                    <input type="text" name="nombre">
+                                    <label for="apellido">Apellido</label>
+                                    <input type="text" name="apellido">
+                                    <label for="email">Correo electronico</label>
+                                    <input type="email" name="email">
+                                    
+                                    Hombre <input class="sexo" type="checkbox" name="sexo" value="hombre"> 
+                                    Mujer <input class="sexo" type="checkbox" name="sexo" value="mujer"> 
+                                    Otros <input class="sexo" type="checkbox" name="sexo" value="otros"> 
+                                </div>
+
+                                <div class="col-6">
+                                    <p class="dias">Elija que dia de la semana prefiere recibir correo:</p> 
+                                    <select name="dias">
+                                        <option value="todos-los-dias">Cualquier dia</option>
+                                        <option value="lunes">Lunes</option>
+                                        <option value="martes">Martes</option>
+                                        <option value="miercoles">Miercoles</option>
+                                        <option value="jueves">Jueves</option>
+                                        <option value="viernes">Viernes</option>
+                                        <option value="sabado">Sabado</option>
+                                        <option value="domingo">Domingo</option>
+                                        <option value="toda-la-semana">Toda la semana</option>
+                                        <option value="fin-de-semana">Fin de semana</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="container">
+                            <div class="row ">
+                                <div class="col-12">
+                                    <input class="botones" type="reset" value="Borrar todo">
+                                    <input class="botones" type="submit" value="Enviar formulario">
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+</html>
